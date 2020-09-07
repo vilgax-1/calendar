@@ -1,0 +1,55 @@
+.weather{
+    width: 30vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.btn-yellow{
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    background-color:#976BA6;
+    padding: 0.781vw 1.042vw;
+    border-radius: 0.521vw;
+    margin-left: 1.042vw;
+    font-size: 1.2vw;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    width: 96%;
+}
+
+.weather-card{
+    width: 100%;
+    height: auto;   
+    color: black;
+    font-weight: 400;
+    font-size: 3.646vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1.042vw;
+    position: relative;
+}
+
+.celcius{
+    font-size: 2.083vw;
+    position: absolute;
+    top: 0;
+}
+
+.weather-card p{
+    margin: 0;
+    padding: 0;
+}
+.weather-card .country{
+    display: flex;
+    font-size: 1.042vw;
+    font-weight: 300;
+}

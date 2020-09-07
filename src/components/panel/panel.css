@@ -1,0 +1,155 @@
+.container{
+    box-shadow: 1px 1px 3px 2px rgb(0,0,0,0.3);
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 1.563vw  auto;
+    background-color: #fff;
+    border-radius: 0.521vw;
+    padding:0;
+    position: relative;
+}
+
+.container-calendar{
+    background-color:#545454;
+    width: 40%;
+    height: auto;
+    margin-left: 2.083vw;
+    padding-bottom: 3vw;
+}
+
+.panel-container{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.panel-container .header-panel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 2.083vw;
+}
+
+.panel-container .header-panel .date{
+    border: none;
+    background: transparent;
+    width: 13.906vw;
+    outline: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 2.083vw;
+    text-transform: uppercase;
+    background-color: #F190A1;
+    border-radius: 0 0 0.521vw 0.521vw;
+    text-indent: 0.990vw;
+}
+
+.panel-container .body-panel{
+    width: 100%;
+    height: auto;
+    box-shadow: 1px 1px 3px 2px rgba(0,0,0,0.3);
+    background: #F190A1;
+    margin-top: 1.042vw;
+    padding: 0.521vw 0;
+    border-radius: 0.521vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 80%;
+    margin: 0.521vw auto;
+}
+
+.label-color{
+    margin-right: 1.042vw;
+    font-weight: 400;
+    font-size: 1.2vw;
+}
+
+.rectangle{
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    width: 90%;
+    margin: 0 auto;
+    height: 3vw;
+    text-indent: 1vw;
+    font-size: 1.2vw;
+}
+
+
+.subtitle{
+    margin-right: 2vw;
+    display: block;
+    font-weight: 400;
+    font-size: 1.2vw;
+}
+
+.box-reminders{
+    width: 100%;
+    height: 18.229vw;
+    margin-top: 2vw;    
+    overflow-y: auto;
+}
+
+.box-reminders .vignette{
+    width: 1.042vw;
+    height: auto;   
+}
+
+.box-reminders .square-reminder{
+    width: 95%;
+    height: 3.906vw;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 0.365vw;
+    box-shadow: 1px 1px 3px 2px rgba(0,0,0,0.25);  
+    margin: 0.781vw auto;
+    display: flex;  
+    justify-content: space-between;
+}
+
+.box-reminders .square-reminder .body{
+    width: inherit;
+    text-align: left;
+    padding: 0.781vw 0.521vw;
+    font-weight: bold;
+    color: #514535;
+    text-transform: uppercase;
+}
+
+.box-reminders .square-reminder .body .time{
+    width: 100%;
+    font-size: 0.625vw;
+    font-weight: 100;
+}
+.box-reminders .square-reminder .body{
+    width: 100%;
+}
+
+.icon{
+    border: none;
+    background: transparent;      
+}
+
+.icon img{
+    width: 1.563vw;
+}
+
+.submit{
+    width: 60%;
+    margin: 0.521vw auto;
+    border: none;
+    color: white;
+    background: #FFCEE2;
+    border-radius: 0.521vw;
+    font-weight: bold;
+    padding: 0.781vw 0;
+    font-size: 0.781vw;
+    box-shadow: 1px 1px 3px 2px rgba(0,0,0,0.25);
+}
